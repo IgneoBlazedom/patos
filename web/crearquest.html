@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crear Cuestionario</title>
+	<link rel="stylesheet" type="text/css" href="crearquest.css">
+	 <meta charset="UTF-8">
+</head>
+<body>
+	<div class="cont">
+		<span style="font-family: Arial; font-size: 25px">
+			Crear cuestionario nuevo
+		</span>
+		<br><br>
+		<div class="formas">
+			<span>Inserte la pregunta</span><br>
+			<input type="text" name="" placeholder="Inserte aquí la pregunta" class="texto" style="height: 32px;">
+			<br><br><br>
+			<span>Inserte el tiempo de la pregunta</span><br>
+			<input type="text" name="" placeholder="00 minutos" class="texto" style="width: 120px;">
+			&nbsp; &nbsp;<b>:</b>&nbsp; &nbsp;
+			<input type="text" name="" placeholder="00 segundos" class="texto" style="width: 120px;">&nbsp;&nbsp;
+			<input type="checkbox" name="">&nbsp;
+			<div class="smolr">Aplicar el mismo tiempo a todas las preguntas</div>
+			<br><br><br>
+			<span>Inserte las opciones de respuesta</span><br>
+			<table cellspacing="10" width="600">
+				<tr>
+					<td>
+						<div class="abcd">Respuesta A)</div><br>
+						<input type="text" name="" placeholder="Inserte aquí la respuesta" class="resp">
+						<input type="radio" name="correcto" value="">	
+						<br>&nbsp;		
+					</td>
+					<td>
+						<div class="abcd">Respuesta B)</div><br>
+						<input type="text" name="" placeholder="Inserte aquí la respuesta" class="resp">
+						<input type="radio" name="correcto" value="">
+						<br>&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<div class="abcd">Respuesta C)</div><br>
+						<input type="text" name="" placeholder="Inserte aquí la respuesta" class="resp">
+						<input type="radio" name="correcto" value="">
+					</td>
+					<td>
+						<div class="abcd">Respuesta D)</div><br>
+						<input type="text" name="" placeholder="Inserte aquí la respuesta" class="resp">
+						<input type="radio" name="correcto" value="">
+					</td>
+				</tr>
+			</table>
+			<br><br>
+			<div align="center">
+				<input type="submit" name="enviar" value="Añadir otra pregunta" class="boton">
+				<div style="width: 60px; display: inline-block;">&nbsp;</div>
+				<input type="submit" name="enviar" value="Guardar y continuar" class="boton">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

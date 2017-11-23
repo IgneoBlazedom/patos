@@ -1,0 +1,52 @@
+body{
+	background-color:#00427E;
+	font-family: arial-narrow;
+
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+}
+a:hover{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 2.2em;
+	-moz-transition: color 0.3s, font-size 0.3s;
+	-webkit-transition: color 0.3s, font-size 0.3s; 
+    transition:color 0.3s, font-size 0.3s;
+}
+
+.titulo{
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+
+.tit{
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	color: #fff;
+	text-align: center;
+
+}
+label{
+	font-size: 2em;
+	color: #fff;
+}
+.campo, .boton{
+	height: 2.4em;
+	border-radius: 205px;
+	font-weight: bold;
+	margin:0;
+	font-size: 1.5em;
+}
+.boton{
+	width: 20em;
+}
+.logo{
+	width: 8em;
+
+}

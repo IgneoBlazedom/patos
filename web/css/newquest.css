@@ -1,0 +1,104 @@
+@font-face {
+    font-family: MicrosoftYahei;
+    src: url(chinese.msyh.ttf);
+}
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.banner{
+	background-image: url('imagen.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	background-size: 100% 270px;
+	background-position: center center;
+	min-width: 930px;
+	display: flex;
+	justify-content: center;  /*align horizontal*/		
+	align-items: center; /*align vertical*/
+}
+
+.bannerint{
+	background-color: rgba(0,0,0,0.4);
+	color: white;	
+	font-family: MicrosoftYahei;
+	width: 100%;
+	height: 90px;
+	font-size: 40px;
+	font-weight: bold;
+
+	display: flex;
+	justify-content: center;  /*align horizontal*/		
+	align-items: center; /*align vertical*/
+
+}
+
+.cont{
+	padding-top: 30px; 
+	margin: 0 auto;
+	width: 90%;
+	font-size: 27px;
+	font-family: Arial;
+	color: #0c67c3;
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;	
+}
+
+textarea{
+	width: 80%;
+	height: 150px;
+	text-align: left;
+	font-size: 24px;
+	font-family: arial;
+	padding-left: 7px; 
+	padding-top: 5px; 
+	border-radius: 25px;	
+	border: solid 1px;
+	border-color: #a8a8a8;
+
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;	
+}
+
+textarea:focus{
+	border: solid 2px #0C73D4;
+}
+
+
+.boton{
+	width: 200px;
+	height: 30px;
+	border-radius: 100px;
+	border: none;
+	color: #FFFFFF;
+	background-color: #0c67c3;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: bold;
+	
+	overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+}
+
+.boton:hover{
+	background-color: #06386a;
+	cursor: pointer;
+
+}

@@ -1,0 +1,39 @@
+body{
+	background:fixed no-repeat url("../img/bg1.jpg");
+	background-size: cover;
+	font-family: arial-narrow;
+
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 1.1em;
+	-moz-transition:color 0.5s, font-size 0.5s;
+	-webkit-transition: color 0.5s, font-size 0.5s; 
+    transition:color 0.5s, font-size 0.5s;
+}
+
+.titulo{
+	font-size: 5em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+.tit{
+	padding-top: 15%;
+}
+.empezarIco{
+	font-size: 10em;
+	text-align: center
+}
+.empezarTxt{
+	font-size: 1.2em;
+	text-align: center
+}
+img{
+	size: 5em;
+}

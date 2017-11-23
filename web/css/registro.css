@@ -1,0 +1,137 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+.centrar {
+	display: flex;	
+	justify-content: center; /*align horizontal*/
+	align-items: center;/* align vertical*/
+}
+
+.banner{
+	width: 100%;
+	height: 60px;
+	color: #FFFFFF;
+	background-color: #0c67c3;
+	display: flex;		
+	justify-content: center;  /*align horizontal*/		
+	align-items: center; /*align vertical*/
+	font-family: arial;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.ops{
+	margin: 0 auto;
+	width: 400px;
+	height: 200px;
+	background-color: #e6e6e6;
+	border-radius: 15px;
+
+	-webkit-box-shadow: 17px 18px 20px -20px rgba(0,0,0,0.6);
+	-moz-box-shadow: 17px 18px 20px -20px rgba(0,0,0,0.6);
+	box-shadow: 17px 18px 20px -20px rgba(0,0,0,0.6);
+}
+
+
+
+.ops:hover{
+	cursor: pointer;
+}
+
+.opsiesac{
+	height: 100%;
+	width: 50%;
+	background-color: #0c67c3;
+	color: #FFFFFF;
+	border-radius: 15px;	
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.opsiesnac{
+	height: 100%;
+	width: 50%;
+	background-color: #e3e3e3;
+	color: #9d9d9d;
+	border-radius: 15px;
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cont{
+	margin: 0 auto;
+	width:60%;
+	height: 100%;
+	font-family: arial;
+	font-size: 20px;
+	
+}
+
+
+.texto{
+	width: 100%;
+	border-radius: 5px;
+	border: solid 1px;
+	border-color: #a8a8a8;
+	font-family: arial;
+	font-size: 17px;
+	height: 27px;
+	padding-left: 7px; 
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+.texto:focus{
+	border: solid 2px #0C73D4;
+}
+
+.boton{
+	width: 200px;
+	height: 30px;
+	border-radius: 100px;
+	border: none;
+	color: #FFFFFF;
+	background-color: #0c67c3;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: bold;
+
+
+}
+
+.boton:hover{
+	background-color: #06386a;
+	cursor: pointer;
+
+}
+
+a:visited{
+	color: #9D9D9D;
+}
+
+
+
+/*	
+	display: flex;	
+	justify-content: center; align horizontal
+	align-items: center; align vertical
+
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+     overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    */

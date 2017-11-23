@@ -1,0 +1,32 @@
+body{
+	background:fixed no-repeat url("../img/bg2.jpg");
+	background-size:100% 40%;
+	font-family: arial-narrow;
+
+}
+
+.titulo{
+	background: rgba(0,0,100,0.5);
+	color: #fff;
+	text-align: center;
+	font-size: 3em;
+}
+.usr{
+
+	border: solid #fff 10px;
+	border-radius: 100%;
+	margin-bottom: -5%;
+}
+.contenido{
+    margin-top: 10%;
+    background: #fff;
+
+}
+.contenido2{
+    margin-top: -5%;
+    width: 80%;
+    margin-left: 10%;
+;}
+
+
+ 
