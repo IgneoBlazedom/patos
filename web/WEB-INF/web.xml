@@ -4,9 +4,25 @@
         <servlet-name>registro</servlet-name>
         <servlet-class>servlets.registro</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>creacuest</servlet-name>
+        <servlet-class>servlets.creacuest</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NuevoCuestionario</servlet-name>
+        <servlet-class>servlets.NuevoCuestionario</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>registro</servlet-name>
         <url-pattern>/registro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>creacuest</servlet-name>
+        <url-pattern>/creacuest</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NuevoCuestionario</servlet-name>
+        <url-pattern>/NuevoCuestionario</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

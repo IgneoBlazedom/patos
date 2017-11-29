@@ -27,7 +27,7 @@
             }
         if (veces.equals("1")&&msj.equals("")) {
             out.print("alert('Registro Correcto');");
-            out.print("window.location = 'https://www.google.com';");
+            out.print("window.location = 'inicio.jsp';");
             }
         %>
         </script>
